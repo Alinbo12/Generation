@@ -1,0 +1,14 @@
+//función para saber si es divisible entre 4 o 9 
+
+    //definimos la función
+function ComprobarDivisible(num){
+    if (num %4 == 0 || num % 9 == 0) {
+         console.log('verdadero');
+    }else{
+        console.log('falso');
+    }
+};
+    // terminamos de definir la función
+
+    //llamamos a la función
+    ComprobarDivisible(9);
