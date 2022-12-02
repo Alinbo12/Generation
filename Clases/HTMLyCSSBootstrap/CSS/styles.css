@@ -1,0 +1,64 @@
+/*  ctr k + c */ 
+
+/* shift alt + a */
+
+/* Selectore
+por etiqueta */
+
+/* selector de todo */
+
+body {
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,115,1) 37%, rgba(0,212,255,1) 100%);
+}
+
+
+h1 {
+    color: indigo;
+    text-align: center;
+    border-radius: 50px;
+    background-color: orange;
+    width: 500px;
+    height: 80px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+h2 {
+    color: aqua;
+}
+
+p {
+    color: cornflowerblue;
+}
+
+/* Por clase */
+
+.subtitulo {
+    color: brown;
+    border: 500px;
+    background-color: aqua;
+    border-radius: 50px;
+    width: 500px;
+    height: 100%;
+}
+
+/*  Por id  */
+
+#parrafo2 {
+    color: darkslateblue;
+    background-color: rgb(204, 168, 50);
+    border: 500px burlywood;
+    height: auto;
+    width: auto;
+    border-radius: 100%;
+    text-align: center;
+    border: dotted;
+    margin-left: auto;
+}
+
+th {
+    color: whitesmoke;
+    
+}
