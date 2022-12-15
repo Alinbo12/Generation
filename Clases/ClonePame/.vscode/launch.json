@@ -8,6 +8,17 @@
             "mainClass": "com.security.security.SecurityApplication",
             "projectName": "security",
             "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=54434 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=security"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Passgenerator<security>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.security.security.util.Passgenerator",
+            "projectName": "security",
+            "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
     ]
